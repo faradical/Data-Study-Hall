@@ -1,5 +1,5 @@
 # Git Basics
-![git logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fullstackpython.com%2Fgit.html&psig=AOvVaw3ejs4xqBG5m27jqorOH7lb&ust=1602961909025000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDI1oDpuewCFQAAAAAdAAAAABAD)
+![git logo](https://www.fullstackpython.com/img/logos/git.png)
 ## Introduction
 Git is a VCS, or Version Control System. It allows us to to track changes to files, restore previous versions, collaborate with others, and create CI/CD pipelines for code deployment.
 
@@ -25,6 +25,10 @@ A presentation on Git can be accessed [here](https://docs.google.com/presentatio
 `git commit -m "A comment about this commit."` Commits all changes to a repository to the git tracking system.
 
 `git push` Pushes local changes to the remote repository.
+
+`git branch <branch name>` Creates a new branch
+
+`git checkout <branch>` Switches the HEAD pointer to the specified branch
 
 `git config --global user.name "Your GitHub username"`
 
