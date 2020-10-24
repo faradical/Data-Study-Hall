@@ -26,4 +26,4 @@ while you are still in you terminal to run it as well.
 
 ### Verify $PATH
 To verify the geckodriver was successfully added to your path, simply type ```geckodriver``` in your command line. If you see ouput like this then you are good to go!
-![geckodriver output](https://github.com/faradical/Data-Study-Hall/tree/master/Web%20Scraping/Selenium%20Installation/images/geckodriver_terminal_output.png)
+![geckodriver output](https://raw.githubusercontent.com/faradical/Data-Study-Hall/master/Web%20Scraping/Selenium%20Installation/images/geckodriver_terminal_output.png)
