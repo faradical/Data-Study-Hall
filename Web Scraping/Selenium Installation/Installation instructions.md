@@ -19,15 +19,17 @@ Geckodriver can be downloaded [here](https://github.com/mozilla/geckodriver/rele
 
 ### Add Geckodriver To $PATH
 There are plenty of ways to complete adding the driver to your path variable. Copy it to the bin/ directory, add a new folder to your path for webdrivers, or try running the appropriate included drivetopath.sh file in Bash.
+
 | **Downloads** |
 | ------------- |
 | [**drivetopath_Mac.sh**](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/faradical/Data-Study-Hall/blob/master/Web%20Scraping/Selenium%20Installation/drivetopath_Mac.sh)|
 | [**drivetopath_Windows.sh**](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/faradical/Data-Study-Hall/blob/master/Web%20Scraping/Selenium%20Installation/drivetopath_Windows.sh) |
+
 For Windows users, simply click the file to run with with git bash. On Mac, it may be necessary to first run the following in your terminal:\
 ```chmod +x /path/to/drivetopath_Mac.sh```\
 This command will add executable permissions to your script. Now you can simply click the file to run it or use 
 ```./path/to/drivetopath_Mac.sh```\
-while you are still in you terminal to run it as well.
+while you are still in your terminal to run it as well.
 
 ### Verify $PATH
 To verify the geckodriver was successfully added to your path, simply type ```geckodriver``` in your command line. If you see ouput like this then you are good to go!
