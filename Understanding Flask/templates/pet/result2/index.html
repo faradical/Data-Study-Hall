@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="static/css/custom.css">
+    </head>
+
+    <body>
+        <div id="main">
+        </div>
+        <script src="https://d3js.org/d3.v6.js"></script>
+        <script src="static/js/script.js"></script>
+        <script>
+            name = "{{ name }}";
+            type = "{{ type }}";
+        </script>
+        <script>
+            d3.select("#main").append("h1").text(`Your pet's name is ${name}. It is a ${type}.`);
+        </script>
+    </body>
+</html>

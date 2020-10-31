@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>{{ title }}</title>
+
+        <link rel="stylesheet" href="static/css/custom.css">
+
+    </head>
+
+    <body>
+        <div id="main">
+            <form action="/result1" method="post">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <button id="DonleysButton">Do Something Here.</button>
+        </div>
+        <script src="https://d3js.org/d3.v6.js"></script>
+        <script src="static/js/script.js"></script>
+    </body>
+</html>

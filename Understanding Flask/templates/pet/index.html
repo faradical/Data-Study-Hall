@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>{{ title }}</title>
+
+        <link rel="stylesheet" href="static/css/custom.css">
+
+    </head>
+
+    <body>
+        <div id="main">
+            </div>
+                <label for="pet-name">Your pet's name:</label>
+                <input type="text" id="pet-name" name="pet-name">
+                <label for="pet-type">Cat or dog?</label>
+                <select id="pet-type">
+                    <option value='cat'>Cat</option>
+                    <option value='dog'>Dog</option>
+                </select>
+                <button id="pet-button">Add Pet</button>
+            </div>
+            <div id="results"></div>
+        </div>
+        <script src="https://d3js.org/d3.v6.js"></script>
+        <script src="static/js/script.js"></script>
+    </body>
+</html>
