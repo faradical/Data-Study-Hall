@@ -5,7 +5,7 @@ ME=$(whoami)
 folders=$(ls /Users/$ME/Downloads/ | grep "geckodriver")
 for folder in $folders
 do
-    if [[ ${folder} != *".zip"* ]]; then
+    if [[ ${folder} != *".gz"* ]]; then
         echo "$folder"
         location=$folder
     fi
