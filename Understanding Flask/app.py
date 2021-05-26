@@ -62,6 +62,8 @@ def not_found(error=None):
             'message': 'Not Found: ' + request.url,
     }
     resp = jsonify(message)
+
+    print(type(resp))
     resp.status_code = 404
 
     return resp
