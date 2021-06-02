@@ -51,9 +51,20 @@ def pet():
 
 @app.route("/pet/result2/<name>/<type>")
 def result2(name="None",type="None"):
+
+    # Seth's extra demo stuf
+
     # DO STUFF#
     title = "Pet Results"
     return render_template("/pet/result2/index.html", name=name, type=type, title=title)
+
+@app.route("/model/<value1>/<value2>")
+def result3(value1="None",value2="None"):
+    def model_predict(v1, v2):
+        return int(v1) * int(v2)
+
+    my_big_dict = {'result': model_predict(value1, value2)}
+    return jsonify(my_big_dict)
 
 @app.errorhandler(404)
 def not_found(error=None):

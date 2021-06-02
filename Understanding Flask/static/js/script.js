@@ -23,6 +23,18 @@ function DoHere(){
 }
 
 
+function Nishant(){
+    var v1 = d3.select("#value1").node().value;
+    var v2 = d3.select("#value2").node().value;
+
+    d3.json(`/model/${v1}/${v2}`).then(data => {
+        console.log(data);
+        var lauren = d3.select("#kirk");
+        lauren.append("h1").text(data.result);
+    });
+}
+
 // EVENT LISTENERS
 d3.select("#pet-button").on("click", createPetResults);
 d3.select("#DonleysButton").on("click", DoHere);
+d3.select("#KirksButton").on("click", Nishant);
